@@ -3,14 +3,22 @@ package com.generic;
 import java.util.ArrayList;
 import java.util.List;
 
-import multiobject.MultiTest;
-
 public class TestRun {
 
 	public static void main(String[] args) {
 		Test<String> stringTest = new Test<String>("pavel");
 		Test<Integer> integerTest = new Test<Integer>(2);
-
+		
+		/**
+		 * empty contrator and it's working procedure
+		 */
+		
+	
+		Test<String> testString = new Test<String>();
+		testString.setObject("hello robin");
+		
+		testString.showObject();
+		
 		stringTest.showObject();
 		integerTest.showObject();
 

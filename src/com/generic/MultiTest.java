@@ -1,4 +1,4 @@
-package multiobject;
+package com.generic;
 
 public class MultiTest <T , U>{
 
